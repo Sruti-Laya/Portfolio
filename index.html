@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Srutilaya Rupesh</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/37ffa05780.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Srutilaya.png" class="myPhoto">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#interests">Interests</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Epistemophilic Connoisseur</p>
+                <h1>Hey there! I'm <span>Srutilaya</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subTitle">About Me</h1>
+                    <p>I am an enthusiastic and ambitious girl with an insatiable thirst for knowledge and a passion for learning. Always eager to explore new horizons, I am unafraid of taking on responsibilities and actively seek opportunities to lead and organize various tasks. My strong determination and dedication enable me to conduct and manage activities effectively. Additionally, I possess a remarkable ability to grasp new concepts swiftly, making me a fast learner in various domains. Fuelled by creativity, I find joy in utilizing my graphic design skills to craft captivating visuals, while also enjoying the process of video editing and designing event posters.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('experiences')">Experiences</p>
+                        <p class="tab-links" onclick="opentab('extracurriculars')">Extracurriculars</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="experiences">
+                        <ul>
+                            <li><span>Lean In Circle - Leader</span><br>- Served as a member and led the club as a leader in my 3rd and 4th year <br>- Have hosted and coordinated events like Hackathons and Guest Talks <br>- Ensured helping the girl community in the college</li>
+                            <li><span>ECE Association - Joint Secretary</span><br>- Have been a member of the club for 4 years <br>- A member of the Event Conduction and Coordination, Public Relations, Content Creation and Design Team <br>- Hosted events like Freshers, Branch Introduction sessions, Guest Talks and Apprenticeship programs </li>
+                            <li><span>Tempest - Dance Crew</span><br>- Contributed my passion for dance, dedication, and teamwork to elevate performances and foster a vibrant, inclusive dance community</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="extracurriculars">
+                        <ul>
+                            <li><span>Dance</span><br>Passionate dancer with a strong classical foundation, harnessing the beauty of movement and rhythm through five years of dedicated training, and igniting the stage with a mesmerizing flair for dance</li>
+                            <li><span>Designing</span><br>A design enthusiast with a flair for creativity, fueled by a passion for crafting captivating visuals, and a proven track record of bringing ideas to life through expert use of Photoshop in designing stunning posters</li>
+                            <li><span>Art</span><br>Art is the canvas of my soul, where colors and strokes blend to convey emotions beyond words. With every brushstroke, I find solace, and through art, I express the boundless creativity that resides within me</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Interests-->
+    <div id="interests">
+        <div class="container">
+            <h1 class="sub-title">My Interests</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/cloud.jpeg">
+                    <div class="layer">
+                        <h3>Cloud Computing</h3>
+                        <p>Aspiring cloud enthusiast with a solid foundation, ready to soar higher and explore the boundless opportunities of cloud computing </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/data.png">
+                    <div class="layer">
+                        <h3>Data analysis</h3>
+                        <p>Data-driven enthusiast with a passion for SQL, DBMS, and data analysis, crafting captivating visualizations to tell compelling stories</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/graphic.jpg">
+                    <div class="layer">
+                        <h3>Graphic Designing</h3>
+                        <p>Adobe wizard and creative virtuoso, transforming ideas into stunning visuals, event posters, and captivating videos with an insatiable love for graphic design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="projects-list">
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX</h2>
+                    <p>A visual design and user interface elements that facilitate a seamless and intuitive user experience during digital transactions</p>
+                    <a href="#">Know more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    <h2>Data Analysis</h2>
+                    <p>Building a data analyst portfolio, unraveling the dynamics of bike sharing in India, one dataset at a time, to unveil valuable insights and trends shaping the future of sustainable transportation</p>
+                    <!-- <a href="#">Know more</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact  -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-titel">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>srutilaya04@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 9567838949</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100013753203843&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com/srutilayarupesh?igshid=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Sruti-Laya"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/srutilaya-rupesh-b06aa3218"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>   
+                    <a href="#" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = '0';
+        }
+        function closemenu(){
+            sidemenu.style.right = '-200px';
+        }
+    </script>
+    <script>
+        const scriptURL = "https://script.google.com/macros/s/AKfycbwe38A3zje1HeQXidfFYft0nq8QmQ96iJs8cL0PlHrBqDUAf8h93Zh_PZAxIBbPN50/exec"
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent succesfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
